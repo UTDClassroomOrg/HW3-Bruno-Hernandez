@@ -75,3 +75,7 @@ public class Average {
 5. single(), empty(), zero() still worked
 - Fault: Using Math.max instead of Math.min causes the function to use an incorrect number of elements when calculating the average.
 
+# Code Coverage
+<img width="958" alt="test" src="https://github.com/user-attachments/assets/736c21bf-2448-44fb-9f33-7f13075e6fe8">
+
+
