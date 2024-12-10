@@ -71,7 +71,7 @@ public class Average {
    - Expected Output: 4
    - Actual Output: 5 (average of [4, 6])
 3. Fix: Restore i = 0.
-4. testBasicCase() and testKExceedsArrayLength() both did not work while the rest did
-5. testSingleElement(), testEmptyList(), testZeroK() still worked
+4. basic() and exceeds() both did not work while the rest did
+5. single(), empty(), zero() still worked
 - Fault: Using Math.max instead of Math.min causes the function to use an incorrect number of elements when calculating the average.
 
